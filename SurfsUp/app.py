@@ -32,6 +32,11 @@ session = Session(engine)
 # Create an instance of the Flask class
 app = Flask(__name__)
 
+
+#################################################
+# Flask Routes
+#################################################
+
 @app.route("/")
 def welcome():
     """List all available API routes."""
@@ -161,7 +166,3 @@ def temp_stats(start=None, end=None):
 # Run the Flask application
 if __name__ == "__main__":
     app.run(debug=True)
-
-#################################################
-# Flask Routes
-#################################################
