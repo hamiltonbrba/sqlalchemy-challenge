@@ -43,13 +43,15 @@ To run this project locally, follow these steps:
    cd sqlalchemy-challenge
    ```
 
-3. **Run the Flask Application:**
+3. **Make sure your Virtual Environment is Set-up First**
+
+4. **Run the Flask Application:**
 
    ```bash
    python app.py
    ```
 
-6. **Open the Application in Your Browser:**
+5. **Open the Application in Your Browser:**
 
    Navigate to `http://127.0.0.1:5000/` to access the API and view available routes. Or 'CTRL' + Left Click the link in the terminal
 
