@@ -15,6 +15,7 @@ and temperature observations, through a RESTful API built with Flask.
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
 - [Code Source](#code-source)
+```
 
 ## Project Overview
 
@@ -27,8 +28,6 @@ A Flask API is created to serve the results of this analysis, allowing users to 
 The dataset used for this project is an SQLite database file named `hawaii.sqlite`, which contains weather data such as
 precipitation levels and temperature observations from various weather stations in Hawaii.
 
-
-```
 ## Setup and Installation
 
 To run this project locally, follow these steps:
